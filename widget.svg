@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="252" height="142" viewBox="0 0 252 142"
+     role="img" aria-label="The Brightness Scroll widget showing 72 percent">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+    <style>
+      .hdr { font: bold 11px "Segoe UI", system-ui, sans-serif; fill: #8a93a3; letter-spacing: .6px; }
+      .val { font: bold 34px "Segoe UI", system-ui, sans-serif; fill: #e9edf5; }
+      .ftr { font: 11px "Segoe UI", system-ui, sans-serif; fill: #8a93a3; }
+      .cls { font: 17px "Segoe UI", system-ui, sans-serif; fill: #8a93a3; }
+    </style>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <rect x="0.5" y="0.5" width="251" height="141" fill="#1c1f26" stroke="#39404d"/>
+    <rect x="13" y="92" width="224" height="9" fill="#2c313c"/>
+    <rect x="13" y="92" width="161" height="9" fill="#ffb057"/>
+  </g>
+
+  <text class="hdr" x="13" y="23">BRIGHTNESS</text>
+  <text class="cls" x="241" y="23" text-anchor="end">&#215;</text>
+
+  <text class="val" x="126" y="76" text-anchor="middle">72%</text>
+  <text class="ftr" x="126" y="122" text-anchor="middle">Dell E2016HV (Analog)</text>
+</svg>

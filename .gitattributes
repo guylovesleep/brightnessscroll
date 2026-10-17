@@ -1,0 +1,15 @@
+# Normalise line endings in the repository.
+# Text files are stored with LF; the working tree gets the platform default.
+
+* text=auto
+
+# Batch files must keep CRLF to behave correctly in cmd.exe.
+*.bat   text eol=crlf
+
+# Source and docs for this project: LF everywhere.
+*.py    text eol=lf
+*.pyw   text eol=lf
+*.md    text eol=lf
+*.svg   text eol=lf
+*.json  text eol=lf
+*.txt   text eol=lf
